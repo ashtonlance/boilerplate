@@ -1,7 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
 // Styles for the demo
 
 body {
-    background: #3064FA;
+    
+    @apply .bg-blue-400;
     color: white;
     font-size: 10em;
     display: flex;
