@@ -30,7 +30,7 @@
 // 🎚️ Base config
 const config = {
     // Dev domain to proxy
-    devProxyDomain: process.env.DEFAULT_SITE_URL || "http://site.test",
+    devProxyDomain: process.env.DEFAULT_SITE_URL || "http://agency-webpack-mix-config.test",
     // Paths to observe for changes then trigger a full page reload
     devWatchPaths: ["src/templates"],
     // Port to use with webpack-dev-server

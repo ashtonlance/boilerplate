@@ -101,7 +101,7 @@ npx degit ben-rogerson/agency-webpack-mix-config new-project
 ### 2. Install the dependencies:
 
 ```bash
-cd new-project && npm install
+cd new-project && yarn
 ```
 
 ### 3. Update the proxy domain and start adding project files
@@ -125,9 +125,9 @@ This option converts the Twig templates in `src/templates` into static Html file
     ```bash
     cd web && valet link my-static-site.test
     ```
-    You'll need to run `npm run build` to preview your static site operating at `my-static-site.test`.
+    You'll need to run `yarn build` to preview your static site operating at `my-static-site.test`.
 
-3. `npm run dev` to start your development server.
+3. `yarn dev` to start your development server.
 
 #### b) Create a dynamic site
 
@@ -165,7 +165,7 @@ This example shows how to [use Twigpack to load the files from the manifest](htt
 
 There will be some unnecessary packages used only for rendering a static site. Remove them from your project:
 ```bash
-npm rm html-webpack-plugin twig-html-loader laravel-mix-twig-to-html
+yarn rm html-webpack-plugin twig-html-loader laravel-mix-twig-to-html
 ```
 
 ## Tasks
@@ -173,15 +173,15 @@ npm rm html-webpack-plugin twig-html-loader laravel-mix-twig-to-html
 The following tasks are available:
 
 ```bash
-npm run dev
+yarn dev
 # Run the development server
 
-npm run start
+yarn start
 # Run the development build
 
-npm run build
+yarn build
 # Run the production build
 
-npm run fix-scripts
+yarn fix-scripts
 # Fix your javascript with eslint
 ```
