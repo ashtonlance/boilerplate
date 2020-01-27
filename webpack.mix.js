@@ -332,6 +332,7 @@ mix.webpackConfig({
         port: config.devServerPort,
         public: `localhost:${config.devServerPort}`,
         host: "0.0.0.0", // Allows access from network
+        https: config.devProxyDomain.includes("https://"),
         contentBase: config.devWatchPaths.length
             ? config.devWatchPaths
             : undefined,
