@@ -1,6 +1,5 @@
 # Agency Webpack Mix Config
 
-<p><img width="80%" src="https://i.imgur.com/r5iZONo.png" alt="Icon"></p>
 
 Featuring a top-class developer experience and simple filing system for your project assets, this config provides a solid platform for your next website (or web app).
 
